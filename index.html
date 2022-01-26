@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- css file link -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- swiper link  -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <!-- font awsome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- gallery link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css">
+    <title>food website</title>
+</head>
+<body>
+    <!-- header section starts  -->
+
+    <header class="header">
+        <a href="#home" class="logo"> <i class="fas fa-utensils"></i> food.</a>
+        <nav class="navbar">
+            <a href="#home"> home</a>
+            <a href="#about"> about</a>
+            <a href="#food"> food</a>
+            <a href="#gallery"> gallery</a>
+            <a href="#menu"> menu</a>
+            <a href="#order"> order</a>
+            <a href="#blogs"> blogs</a>
+
+        </nav>
+        <div id="menu-btn" class="fas fa-bars"></div>
+    </header>
+
+    <!-- header section ends -->
+    <!-- home section starts  -->
+
+    <section id="home" class="home">
+        <div class="swiper home-slide">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide slide" style="background: url(images/home-slide-1.jpg) no-repeat;">
+                    <div class="content">
+                        <span>outstanding food</span>
+                        <h3>delicious cooking</h3>
+                        <a href="" class="btn">get started</a>
+                    </div>
+
+                </div>
+                <div class="swiper-slide slide" style="background: url(images/home-slide-2.jpg) no-repeat;">
+                    <div class="content">
+                        <span>outstanding food</span>
+                        <h3>morning moment</h3>
+                        <a href="" class="btn">get started</a>
+                    </div>
+
+                </div>
+                <div class="swiper-slide slide" style="background: url(images/home-slide-3.jpg) no-repeat;">
+                    <div class="content">
+                        <span>outstanding food</span>
+                        <h3>authentic kitchen</h3>
+                        <a href="" class="btn">get started</a>
+                    </div>
+
+                </div>
+    
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </section>
+    <!-- home secction ends  -->
+    <!-- about section starts  -->
+
+    <section id="about" class="about">
+        <div class="image">
+            <img src="images/about-img.png" alt="">
+        </div>
+        <div class="content">
+            <h3 class="title">welcome to our restaurant</h3>
+            <p>Bienvenue dans notre restaurant où vous aurez le bonheur d'associer les plaisirs gourmands et la grande épopée des jeux olympiques d'hiver depuis 1952.</p>
+            <a href="" class="btn">read more</a>
+            <div class="icons">
+                <div class="icon">
+                    <img src="images/about-icon-1.png" alt="">
+                    <h3>quality food</h3>
+                </div>
+                <div class="icon">
+                    <img src="images/about-icon-2.png" alt="">
+                    <h3>food & drinks</h3>
+                </div>
+                <div class="icon">
+                    <img src="images/about-icon-3.png" alt="">
+                    <h3>expert chefs</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- about section ends  -->
+    <!-- food section starts  -->
+    <section id="food" class="food">
+        <div class="heading">
+            <span>popular dishes</span>
+            <h3 class="title">our delicious food</h3>
+        </div>
+        <div class="swiper food-slide">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide slide " data-name="food-1">
+                    <div class="image">
+                        <img src="images/food-img-1.png" alt="">
+                        <h1>delicious food</h1>
+                        <span class="price">$49.99</span>
+                    </div>
+                </div>
+                <div class="swiper-slide slide" data-name="food-2">
+                    <div class="image">
+                        <img src="images/food-img-2.png" alt="">
+                        <h1>delicious food</h1>
+                        <span class="price">$49.99</span>
+                    </div>
+                </div>
+                <div class="swiper-slide slide" data-name="food-3">
+                    <div class="image">
+                        <img src="images/food-img-3.png" alt="">
+                        <h1>delicious food</h1>
+                        <span class="price">$49.99</span>
+                    </div>
+                </div>
+                <div class="swiper-slide slide" data-name="food-4">
+                    <div class="image">
+                        <img src="images/food-img-4.png" alt="">
+                        <h1>delicious food</h1>
+                        <span class="price">$49.99</span>
+                    </div>
+                </div>
+                <div class="swiper-slide slide" data-name="food-5">
+                    <div class="image">
+                        <img src="images/food-img-5.png" alt="">
+                        <h1>delicious food</h1>
+                        <span class="price">$49.99</span>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+     <!-- food section ends  -->
+
+    <!-- food perview section starts  -->
+    <section class="food-perview-container">
+        <div class="close-perview " id="close-perview" ><i class="fas fa-times"></i></div>
+        <div class="food-perview " data-target="food-1">
+             <img src="images/food-img-1.png" alt="">
+             <h1>food delicious </h1>
+             <div class="stars">
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+             </div>
+            <p>hello and welcome to our restaurant this dish is so delicious  </p>
+            <div class="price">$49.99</div>
+            <a href="" class="btn">buy now</a>
+        </div>
+        <div class="food-perview "  data-target="food-2">
+            <img src="images/food-img-2.png" alt="">
+            <h1>food delicious </h1>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+           <p>hello and welcome to our restaurant this dish is so delicious </p>
+           <div class="price">$49.99</div>
+           <a href="" class="btn">buy now</a>
+       </div>
+       <div class="food-perview"  data-target="food-3">
+        <img src="images/food-img-3.png" alt="">
+        <h1>food delicious </h1>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+        </div>
+       <p>hello and welcome to our restaurant this dish is so delicious </p>
+       <div class="price">$49.99</div>
+       <a href="" class="btn">buy now</a>
+       </div>
+  
+       </div>
+       <div class="food-perview " data-target="food-4">
+        <img src="images/food-img-4.png" alt="">
+        <h1>food delicious </h1>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+        </div>
+       <p>hello and welcome to our restaurant this dish is so delicious  </p>
+       <div class="price">$49.99</div>
+       <a href="" class="btn">buy now</a>
+       </div>
+       <div class="food-perview " data-target="food-5">
+        <img src="images/food-img-5.png" alt="">
+        <h1>food delicious </h1>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+        </div>
+       <p>hello and welcome to our restaurant this dish is so delicious  </p>
+       <div class="price">$49.99</div>
+       <a href="" class="btn">buy now</a>
+       </div>
+
+    </section>
+
+    <!-- food perview section ends  -->
+    <!-- gallery section starts  -->
+    <section id="gallery" class="gallery">
+        <div class="heading">
+            <span>our gallery</span>
+            <h3 class="title">our untold stories</h3>
+        </div>
+        <div class="boxes">
+            <a href="images/food-galler-img-1.jpg" class="box">
+                <img src="images/food-galler-img-1.jpg" alt="">
+                 <div class="icon"><i class="fas fa-plus"></i></div>
+            </a>
+            <a href="images/food-galler-img-2.jpg"  class="box">
+                <img src="images/food-galler-img-2.jpg" alt="">
+                 <div class="icon"><i class="fas fa-plus"></i></div>
+            </a>
+            <a href="images/food-galler-img-3.jpg"  class="box">
+                <img src="images/food-galler-img-3.jpg" alt="">
+                 <div class="icon"><i class="fas fa-plus"></i></div>
+            </a>
+            <a href="images/food-galler-img-4.jpg"  class="box">
+                <img src="images/food-galler-img-4.jpg" alt="">
+                 <div class="icon"><i class="fas fa-plus"></i></div>
+            </a>
+            <a href="images/food-galler-img-5.jpg"  class="box">
+                <img src="images/food-galler-img-5.jpg" alt="">
+                 <div class="icon"><i class="fas fa-plus"></i></div>
+            </a>
+            <a href="images/food-galler-img-6.jpg"  class="box">
+                <img src="images/food-galler-img-6.jpg" alt="">
+                 <div class="icon"><i class="fas fa-plus"></i></div>
+            </a>
+        </div>
+    </section>
+    <!-- gallery section ends  -->
+    <!-- section mernu starts  -->
+    <section id="menu" class="menu">
+        <div class="heading">
+            <span>our menu </span>
+            <h3 class="title">our Populare dishes</h3>
+        </div>
+        <div class="swiper menu-slide">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide slide">
+                    <div class="menu-title"><h3>breakfast</h3></div>
+                    <div class="contents">
+                        <div class="content">
+                            <div class="parag">
+                                <h3>morning breakfast</h3>
+                                <p>enjoy your dishe you are welcome any time and thank u </p>
+                            </div>
+                            <div class="price">$49.99</div>
+                        </div>
+                        <div class="content">
+                            <div class="parag">
+                                <h3>morning breakfast</h3>
+                                <p>enjoy your dishe you are welcome any time and thank u </p>
+                            </div>
+                            <div class="price">$49.99</div>
+                        </div>
+                        <div class="content">
+                            <div class="parag">
+                                <h3>morning breakfast</h3>
+                                <p>enjoy your dishe you are welcome any time and thank u </p>
+                            </div>
+                            <div class="price">$49.99</div>
+                        </div>
+                        <div class="content">
+                            <div class="parag">
+                                <h3>morning breakfast</h3>
+                                <p>enjoy your dishe you are welcome any time and thank u </p>
+                            </div>
+                            <div class="price">$49.99</div>
+                        </div>
+                        <div class="content">
+                            <div class="parag">
+                                <h3>morning breakfast</h3>
+                                <p>enjoy your dishe you are welcome any time and thank u </p>
+                            </div>
+                            <div class="price">$49.99</div>
+                        </div>
+                        <div class="content">
+                            <div class="parag">
+                                <h3>morning breakfast</h3>
+                                <p>enjoy your dishe you are welcome any time and thank u </p>
+                            </div>
+                            <div class="price">$49.99</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="menu-title"><h3>lunch</h3></div>
+                    <div class="contents">
+                        <div class="content">
+                            <div class="parag">
+                                <h3>delicious lunch</h3>
+                                <p>enjoy your dishe you are welcome any time and thank u </p>
+                            </div>
+                            <div class="price">$49.99</div>
+                        </div>
+                        <div class="content">
+                            <div class="parag">
+                                <h3>delicious lunch</h3>
+                                <p>enjoy your dishe you are welcome any time and thank u </p>
+                            </div>
+                            <div class="price">$49.99</div>
+                        </div>
+                        <div class="content">
+                            <div class="parag">
+                                <h3>delicious lunch</h3>
+                                <p>enjoy your dishe you are welcome any time and thank u </p>
+                            </div>
+                            <div class="price">$49.99</div>
+                        </div>
+                        <div class="content">
+                            <div class="parag">
+                                <h3>delicious lunch</h3>
+                                <p>enjoy your dishe you are welcome any time and thank u </p>
+                            </div>
+                            <div class="price">$49.99</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="menu-title"><h3>dinner</h3></div>
+                    <div class="contents">
+                        <div class="content">
+                            <div class="parag">
+                                <h3>delicious dinner</h3>
+                                <p>enjoy your dishe you are welcome any time and thank u </p>
+                            </div>
+                            <div class="price">$49.99</div>
+                        </div>
+                        <div class="content">
+                            <div class="parag">
+                                <h3>delicious dinner</h3>
+                                <p>enjoy your dishe you are welcome any time and thank u </p>
+                            </div>
+                            <div class="price">$49.99</div>
+                        </div>
+                        <div class="content">
+                            <div class="parag">
+                                <h3>delicious dinner</h3>
+                                <p>enjoy your dishe you are welcome any time and thank u </p>
+                            </div>
+                            <div class="price">$49.99</div>
+                        </div>
+                        <div class="content">
+                            <div class="parag">
+                                <h3>delicious dinner</h3>
+                                <p>enjoy your dishe you are welcome any time and thank u </p>
+                            </div>
+                            <div class="price">$49.99</div>
+                        </div>
+                        <div class="content">
+                            <div class="parag">
+                                <h3>delicious dinner</h3>
+                                <p>enjoy your dishe you are welcome any time and thank u </p>
+                            </div>
+                            <div class="price">$49.99</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="menu-title"><h3>drink</h3></div>
+                    <div class="contents">
+                        <div class="content">
+                            <div class="parag">
+                                <h3>cold drink</h3>
+                                <p>enjoy your dishe you are welcome any time and thank u </p>
+                            </div>
+                            <div class="price">$49.99</div>
+                        </div>
+                        <div class="content">
+                            <div class="parag">
+                                <h3>cold drink</h3>
+                                <p>enjoy your dishe you are welcome any time and thank u </p>
+                            </div>
+                            <div class="price">$49.99</div>
+                        </div>
+                        <div class="content">
+                            <div class="parag">
+                                <h3>cold drink</h3>
+                                <p>enjoy your dishe you are welcome any time and thank u </p>
+                            </div>
+                            <div class="price">$49.99</div>
+                        </div>
+                        <div class="content">
+                            <div class="parag">
+                                <h3>cold drink</h3>
+                                <p>enjoy your dishe you are welcome any time and thank u </p>
+                            </div>
+                            <div class="price">$49.99</div>
+                        </div>
+                        <div class="content">
+                            <div class="parag">
+                                <h3>cold drink</h3>
+                                <p>enjoy your dishe you are welcome any time and thank u </p>
+                            </div>
+                            <div class="price">$49.99</div>
+                        </div>
+                        <div class="content">
+                            <div class="parag">
+                                <h3>cold drink</h3>
+                                <p>enjoy your dishe you are welcome any time and thank u </p>
+                            </div>
+                            <div class="price">$49.99</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="menu-title"><h3>dessert</h3></div>
+                    <div class="contents">
+                        <div class="content">
+                            <div class="parag">
+                                <h3>sweet dessert</h3>
+                                <p>enjoy your dishe you are welcome any time and thank u </p>
+                            </div>
+                            <div class="price">$49.99</div>
+                        </div>
+                        <div class="content">
+                            <div class="parag">
+                                <h3>sweet dessert</h3>
+                                <p>enjoy your dishe you are welcome any time and thank u </p>
+                            </div>
+                            <div class="price">$49.99</div>
+                        </div>
+                        <div class="content">
+                            <div class="parag">
+                                <h3>sweet dessert</h3>
+                                <p>enjoy your dishe you are welcome any time and thank u </p>
+                            </div>
+                            <div class="price">$49.99</div>
+                        </div>
+                        <div class="content">
+                            <div class="parag">
+                                <h3>sweet dessert</h3>
+                                <p>enjoy your dishe you are welcome any time and thank u </p>
+                            </div>
+                            <div class="price">$49.99</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+    <!-- section menu ends  -->
+    <!-- order section starts  -->
+    <section id="order" class="order">
+        <div class="heading">
+            <span>order now</span>
+            <h3 class="title">fast home delevery</h3>
+        </div>
+        <form action="">
+            <div class="box-container">
+                <div class="box">
+                    <div class="input-box">
+                        <span>full name</span>
+                        <input type="text" placeholder="enter your name">
+                    </div>
+                    <div class="input-box">
+                        <span>food name</span>
+                        <input type="text" placeholder="food you want">
+                    </div>
+                    <div class="input-box">
+                        <span>order details</span>
+                        <input type="text" placeholder="specifics with food">
+                    </div>
+                    <div class="input-box">
+                        <span>your address</span>
+                        <textarea name="" id="" placeholder="enter your address" cols="30" rows="10"></textarea>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="input-box">
+                        <span>number</span>
+                        <input type="" placeholder="enter your number">
+                    </div>
+                    <div class="input-box">
+                        <span>how much</span>
+                        <input type="number" placeholder="how many you want">
+                    </div>
+                    <div class="input-box">
+                        <span>when you want</span>
+                        <input type="datetime-local" placeholder="">
+                    </div>
+                    <div class="input-box">
+                        <span>our address</span>
+                        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12791.220930850084!2d3.0449814537617366!3d36.72723862485811!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x128fb3fcacf7d1d3%3A0x3937eeb6289f0a3b!2sAdagio%20Magasin%20D&#39;instruments%20De%20Musique%20Et%20Mat%C3%A9riel%20De%20Sonorisation!5e0!3m2!1sar!2sdz!4v1642968873234!5m2!1sar!2sdz" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+                <a href="" class="btn">order now</a>
+            </div>
+        </form>
+    </section>
+    <!-- order section ends  -->
+    <!-- blogs section starts  -->
+    <section id="blogs" class="blogs">
+        <div class="heading">
+            <span>our blogs</span>
+            <h3 class="title">our latest posts</h3>
+        </div>
+        <div class="swiper blogs-slide">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="images/blog-img-1.jpg" alt="">
+                        <div class="info">
+                            <span><i class="fas fa-calendar-day"></i>21st may,2022</span>
+                            <span><i class="fas fa-user"></i>by admin</span>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <h3>blog title goes here</h3>
+                        <p>this place for blogs put your blogs there with the admin and date .. also some information</p>
+                        <a href="" class="btn">read more</a>
+                    </div>
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="images/blog-img-2.jpg" alt="">
+                        <div class="info">
+                            <span><i class="fas fa-calendar-day"></i>21st may,2022</span>
+                            <span><i class="fas fa-user"></i>by admin</span>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <h3>blog title goes here</h3>
+                        <p>this place for blogs put your blogs there with the admin and date .. also some information</p>
+                        <a href="" class="btn">read more</a>
+                    </div>
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="images/blog-img-3.jpg" alt="">
+                        <div class="info">
+                            <span><i class="fas fa-calendar-day"></i>21st may,2022</span>
+                            <span><i class="fas fa-user"></i>by admin</span>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <h3>blog title goes here</h3>
+                        <p>this place for blogs put your blogs there with the admin and date .. also some information</p>
+                        <a href="" class="btn">read more</a>
+                    </div>
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="images/blog-img-4.jpg" alt="">
+                        <div class="info">
+                            <span><i class="fas fa-calendar-day"></i>21st may,2022</span>
+                            <span><i class="fas fa-user"></i>by admin</span>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <h3>blog title goes here</h3>
+                        <p>this place for blogs put your blogs there with the admin and date .. also some information</p>
+                        <a href="" class="btn">read more</a>
+                    </div>
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="images/blog-img-5.jpg" alt="">
+                        <div class="info">
+                            <span><i class="fas fa-calendar-day"></i>21st may,2022</span>
+                            <span><i class="fas fa-user"></i>by admin</span>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <h3>blog title goes here</h3>
+                        <p>this place for blogs put your blogs there with the admin and date .. also some information</p>
+                        <a href="" class="btn">read more</a>
+                    </div>
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="images/blog-img-6.jpg" alt="">
+                        <div class="info">
+                            <span><i class="fas fa-calendar-day"></i>21st may,2022</span>
+                            <span><i class="fas fa-user"></i>by admin</span>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <h3>blog title goes here</h3>
+                        <p>this place for blogs put your blogs there with the admin and date .. also some information</p>
+                        <a href="" class="btn">read more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+    <!-- blogs section ends  -->
+    <!-- footer section starts -->
+    <section class="footer">
+         <div class="infos">
+            <div class="information">
+                <i class="fas fa-clock"></i>
+                <h3>opening hours</h3>
+                <span>07:00 to10:00pm</span>
+            </div>
+            <div class="information">
+                <i class="fas fa-phone"></i>
+                <h3>phone</h3>
+                <span>+213-543-345 <br>+213-673-980 </span>
+            </div>
+            <div class="information">
+                <i class="fas fa-envelope"></i>
+                <h3>email</h3>
+                <span>shakj@gmail.com <br>jefuebc.fkd@gmail.com</span>
+            </div>
+            <div class="information">
+                <i class="fas fa-map"></i>
+                <h3>address</h3>
+                <span>algeria,alger_cheraga</span>
+            </div>
+         </div>
+         <div class="contacts">
+             <div class="icon"><i class="fab fa-facebook-f"></i></div>
+             <div class="icon"><i class="fab fa-twitter"></i></div>
+             <div class="icon"><i class="fab fa-instagram"></i></div>
+             <div class="icon"><i class="fab fa-linkedin-in"></i></div>
+
+         </div>
+         <p>created by <span>djamaa rima</span> |all rights are reserved!</p>
+    </section>
+    <!-- footer section ends  -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- swiper js  -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- gallery js link  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js"></script>
+    <!-- js link  -->
+    <script src="js/scripte.js"></script>
+    
+</body>
+</html>
